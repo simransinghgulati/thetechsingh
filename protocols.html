@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+  <title>http vs https</title>
+  <meta name="description" content="Tech News">  
+  <meta name="author" content="Simran Singh Gulati">
+
+   <!-- mobile specific metas
+   ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">
+        
+
+   <!-- script
+   ================================================== -->
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
+
+   <!-- favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+  <!-- header 
+   ================================================== -->
+   <header class="short-header">   
+
+    <div class="gradient-block"></div>  
+
+    <div class="row header-content">
+
+      <div class="logo">
+           <a href="index.html">Author</a>
+        </div>
+
+      <nav id="main-nav-wrap">
+        <ul class="main-navigation sf-menu">
+          <li><a href="index.html" title="">Home</a></li>                 
+          <li class="has-children">
+            <a>Categories</a>
+            <ul class="sub-menu">
+                  <li><a href="security.html">Information Security</a></li>
+                     <li><a href="hardware.html">Hardware</a></li>
+                  <li><a href="mobile.html">Smart Phones</a></li>
+               </ul>
+          </li>
+          <li><a href="about.html" title="">About</a></li>  
+          <li><a href="contact.html" title="">Contact</a></li>                    
+        </ul>
+      </nav> <!-- end main-nav-wrap -->
+
+      <div class="search-wrap">
+        
+        <form role="search" method="get" class="search-form" action="http://www.google.com/search" target="_blank">
+          <label>
+            <span class="hide-content">Search for:</span>
+                  <input name="sitesearch" type="hidden" value="www.thetechsingh.com">
+            <input type="search" class="search-field" placeholder="Type Your Keywords" value="" name="q" title="Search for:" autocomplete="off">
+          </label>
+          <input type="submit" class="search-submit" value="Search">
+        </form>
+
+        <a href="#" id="close-search" class="close-btn">Close</a>
+
+      </div> <!-- end search wrap --> 
+
+      <div class="triggers">
+        <a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+      </div> <!-- end triggers -->  
+      
+    </div>        
+    
+   </header> <!-- end header -->s
+   
+
+   <!-- content
+   ================================================== -->
+   <section id="content-wrap" class="blog-single">
+   	<div class="row">
+   		<div class="col-twelve">
+
+   			<article class="format-standard">  
+
+   				<div class="content-media">
+						<div class="post-thumb">
+							<p><center><img width="650" src="images/thumbs/single/protocol.jpg" alt="pad_lock_unlock"></p></center>
+						</div>  
+					</div>
+
+					<div class="primary-content">
+
+						<h1 class="page-title">What's HTTP and how does it affect your browsing experience?</h1>	
+
+						<ul class="entry-meta">
+							<li class="date">May 1, 2017</li>						
+							<li class="cat"><a href="">Information Security</a></li>				
+						</ul>						
+
+						<p class="lead">HTTP stands for <text style="color: #045FB4">HyperText Transfer Protocol</text> and is used to control the transfer of content over the web. The content may vary from miniature texts to heavy graphic files. This protocol was developed by <a href="https://en.wikipedia.org/wiki/Ted_Nelson">Ted Nelson</a> and came out in 1991 with its successors in 1996, 1997 and 2015.</p>
+
+						<p>Consider the URL <text style="color: #045FB4">http://www.example.com</text>, when the client (user) clicks on it, his browser directs an HTTP command to the server to access the requested web-page. This request is received by the host (server) and it responds by allowing/disallowing transfer of data.</p>
+
+						<p>On the other hand HTTPS protocol has an additional S, which stands for secure i.e. <text style="color: #045FB4">HyperText Transfer Protocol Secure</text>. It is an encrypted HTTP connection with advanced security capabilities. In case of private information being shared on the internet, “S” signals inclusion of <text style="color: #045FB4">Secure Sockets Layer</text> (SSL) which in turn encrypts the data to be exchanged preventing hacking/leakage of data.</p>
+
+						<p>In other words, HTTPS may be regarded as a combination of HTTP and SSL.</p>
+						<br><br>
+						In case of SSL, when the client requests to connect to website, the user's computer receives an encryption certificate. The moment connection is established, both the computer and and server exchange special keys with each other to exchange secured data. And transfer takes place on approval by both the parties. This encoding/decoding algorithm is unique for each client-server interaction.
+						<br><br>
+						HTTP connections use a port 80 by default. While HTTPS uses 443.
+						</p>
+						<p>Summarising the key features of HTTP:
+						<ul>
+							<li>It is platform independant which allows straight cross platform porting.</li>
+							<li>No run-time support required.</li>
+							<li>It's not connection oriented and can be used over Firewalls.</li>
+							<li>No need for network to create and maintain session state and information.</li>
+							<li>No privacy, the data you share can be exposed or overseen by anyone.</li>
+							<li>No integrity implies anyone can alter the content.</li>
+							<li>No encryption gives a chance of eavesdropping snesitive information.</li>
+							<li>No authentication, thus you don't know whom you are interacting with. Anyone who intercepts can see the username and password.</li>
+						</ul>
+						</p>
+
+						<p>On the other hand HTTPS offers Privacy, Integrity and Authentication, proving it to be highly secure.</p>
+
+						<blockquote><p>While making online transactions or signing up for similar portals be careful to check for the additional "S" at the end.</p></blockquote>
+					</div> <!-- end entry-primary -->		  			   
+
+	  			   <div class="pagenav group">
+		  			   <div class="prev-nav">
+		  					<a href="cloud.html" rel="prev">
+		  						<span>Previous</span>
+		  			   		IAAS vs SAAS
+		  					</a>
+		  				</div> 
+		  				<div class="next-nav">
+		  					<a href="usbc.html" rel="next">
+		  						<span>Next</span>
+		  			   		USB Type-C
+		  					</a>
+		  				</div>  				   
+	  				</div>
+
+				</article>
+   		
+
+			</div> <!-- end col-twelve -->
+   	</div> <!-- end row -->
+
+         	</div> <!-- end col-full -->
+         </div> <!-- end row comments -->
+		</div> <!-- end comments-wrap -->
+
+   </section> <!-- end content -->
+
+
+  <!-- footer
+   ================================================== -->
+   <footer>
+
+   	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-four tab-full mob-full footer-info">            
+
+	            <h4>Know the author</h4>
+
+	               <p>
+		          	Hi, I am <a href="ssg/simran.html">Simran</a>. Hailing from New Delhi, I am currently in junior year at SRM University. Being an IT undergrad, I've immense interest in exploring about technology and security trends.
+		          	</p>
+
+		      </div> <!-- end footer-info -->
+
+	      	<div class="col-two tab-1-3 mob-1-2 site-links">
+
+	      		<h4>Site Links</h4>
+
+	      		<ul>
+	      			<li><a href="about.html">About Us</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="terms.html">Terms</a></li>
+						<li><a href="privacypolicy.htm">Privacy Policy</a></li>
+					</ul>
+
+	      	</div> <!-- end site-links -->  
+
+	      	<div class="col-two tab-1-3 mob-1-2 social-links">
+
+	      		<h4>Social</h4>
+
+	      		<ul>
+	      			<li><a href="https://twitter.com/thetechsingh_co">Twitter</a></li>
+						<li><a href="https://www.facebook.com/thetechsingh">Facebook</a></li>
+						<li><a href="https://www.youtube.com/channel/UCk7I7WBeptp-dpfx3QiIrNw">YouTube</a></li>
+						<li><a href="https://www.instagram.com/thetechsingh_co/">Instagram</a></li>
+					</ul>
+	      	           	
+	      	</div> <!-- end social links --> 
+
+	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
+
+	      		<h4>Subscribe</h4>
+
+	      		<p>Keep yourself updated. Subscribe to our newsletter.</p>
+
+	      		<div class="subscribe-form">
+	      	
+	      			<form id="mc-form" class="group" novalidate="true">
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required=""> 
+	   		
+			   			<input type="submit" name="subscribe" >
+		   	
+
+			
+						</form>
+
+	      		</div>	      		
+	      	           	
+	      	</div> <!-- end subscribe -->         
+
+	      </div> <!-- end row -->
+
+   	</div> <!-- end footer-main -->
+
+      <div class="footer-bottom">
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright thetechsingh 2017</span> 		         	
+		         </div>
+
+		         <div id="go-top">
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+		         </div>         
+	      	</div>
+
+      	</div> 
+      </div> <!-- end footer-bottom -->  
+
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/jquery.appear.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
